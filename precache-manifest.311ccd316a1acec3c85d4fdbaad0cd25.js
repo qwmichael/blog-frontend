@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37596be71b5702d306dfd270283a84d4",
+    "revision": "054b2dc432084bb7ef4ef706c38bda39",
     "url": "https://qwmichael.github.io/ /index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://qwmichael.github.io/ /static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "8b735642328a04b79d98",
+    "revision": "28847e871b521f7c5b45",
     "url": "https://qwmichael.github.io/ /static/css/main.d6a958cb.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://qwmichael.github.io/ /static/js/2.d0a69847.chunk.js.LICENSE"
   },
   {
-    "revision": "8b735642328a04b79d98",
-    "url": "https://qwmichael.github.io/ /static/js/main.9dffd0ee.chunk.js"
+    "revision": "28847e871b521f7c5b45",
+    "url": "https://qwmichael.github.io/ /static/js/main.20ab9475.chunk.js"
   },
   {
     "revision": "4e1698bfd9c3b87dd080",
