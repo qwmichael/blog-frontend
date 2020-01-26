@@ -64,14 +64,14 @@ function App() {
       </Navbar>
 
       <div id='page-body'>   
-        <div className="App">
-          <Switch>
-            <Route path="/" component={HomePage} exact/>
-            <Route path="/about" component={AboutPage} />
-            <Route path="/articles-list" component={ArticlesListPage}/>
-            <Route path="/article/:name" component={ArticlePage}/>  
-            <Route component={NotFoundPage}></Route>
-          </Switch> 
+        <div className="App">     
+            <Switch>
+              <Route path={process.env.PUBLIC_URL + '/'} component={HomePage} exact/>
+              <Route path={process.env.PUBLIC_URL + "/about"} component={AboutPage} />
+              <Route path={process.env.PUBLIC_URL + "/articles-list"} component={ArticlesListPage}/>
+              <Route path={process.env.PUBLIC_URL + "/article/:name"} component={ArticlePage}/>  
+              <Route component={NotFoundPage}></Route>
+            </Switch> 
         </div>
       </div>
   
