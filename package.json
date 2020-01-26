@@ -18,7 +18,7 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "predeploy": "set PUBLIC_URL=https://qwmichael.github.io/ && npm run build",
+    "predeploy": "set PUBLIC_URL=https://qwmichael.github.io/blog-frontend && npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
