@@ -49,7 +49,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>   
        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href={"/"+process.env.PUBLIC_URL}>
+            <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
              </Navbar.Brand>
             <Nav className="mr-auto">
@@ -65,10 +65,10 @@ function App() {
       <div id='page-body'>   
         <div className="App">     
             <Switch>
-              <Route path={'/'} component={HomePage} exact/>
-              <Route path={'/about'} component={AboutPage} exact/>
-              <Route path={'/articles-list'} component={ArticlesListPage} exact/>
-              <Route path={'/article/:name'} component={ArticlePage} exact/>  
+              <Route path={process.env.PUBLIC_URL + '/'} component={HomePage} exact/>
+              <Route path={process.env.PUBLIC_URL + "/about"} component={AboutPage} exact/>
+              <Route path={process.env.PUBLIC_URL + "/articles-list"} component={ArticlesListPage} exact/>
+              <Route path={process.env.PUBLIC_URL + "/article/:name"} component={ArticlePage} exact/>  
               <Route component={NotFoundPage}></Route>
             </Switch> 
         </div>
