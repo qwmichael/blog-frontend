@@ -44,7 +44,7 @@ function App() {
     document.getElementById('audio').setAttribute("autoplay", "")
    
   }
-
+  console.log(process.env.PUBLIC_URL);
 
   return (
     <Router>     
@@ -66,9 +66,9 @@ function App() {
         <div className="App">     
             <Switch>
               <Route path={process.env.PUBLIC_URL + '/'} component={HomePage} exact/>
-              <Route path={process.env.PUBLIC_URL + "/about"} component={AboutPage} />
-              <Route path={process.env.PUBLIC_URL + "/articles-list"} component={ArticlesListPage}/>
-              <Route path={process.env.PUBLIC_URL + "/article/:name"} component={ArticlePage}/>  
+              <Route path={process.env.PUBLIC_URL + "/about"} component={AboutPage} exact/>
+              <Route path={process.env.PUBLIC_URL + "/articles-list"} component={ArticlesListPage} exact/>
+              <Route path={process.env.PUBLIC_URL + "/article/:name"} component={ArticlePage} exact/>  
               <Route component={NotFoundPage}></Route>
             </Switch> 
         </div>
