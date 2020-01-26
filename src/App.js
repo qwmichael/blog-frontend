@@ -9,18 +9,17 @@ import {Navbar, Nav, Image, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-var mySounds = [ '空虚な答え.mp3', 'Wings of Courage -空を超えて- instrumental ver.mp3', "アペイリア (Instrumental).mp3","松本文紀 - 邂逅.flac","彩菜 - freak of nature ： start.mp3","誰が為に.mp3","Histoire de Destin_ (Furuiro Meikyuu Rondo _Histoire de Destin_).mp3","松本文紀 - 夜の向日葵.flac","Narsissu Inst.mp3","阿保剛 - Karma -Klavier-.mp3","コネクド -Instrumental-.mp3"];
+var mySounds = ['1.mp3', '2.mp3', "3.mp3","4.flac","5.mp3","6.mp3","7.mp3","8.flac","9.mp3","10.mp3","11.mp3"];
 
 function App() {
   
   function chooseSong() {   
-    if (window.localStorage.getItem("index") == null) window.localStorage.setItem("index",Math.floor(Math.random() * 1000) % mySounds.length); 
+    if (window.localStorage.getItem('index') == null) window.localStorage.setItem("index",Math.floor(Math.random() * 1000) % mySounds.length); 
     let newindex = Math.floor(Math.random() * 1000) % mySounds.length;
-    while (newindex == window.localStorage.getItem("index")) {
+    while (newindex == window.localStorage.getItem('index')) {
       newindex = Math.floor(Math.random() * 1000) % mySounds.length;
     }
-    window.localStorage.setItem("index", newindex);
-    console.log("index is " + newindex);
+    window.localStorage.setItem('index', newindex);
     return mySounds[newindex];
   }
 
