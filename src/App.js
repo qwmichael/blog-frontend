@@ -49,7 +49,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>   
        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="/">
+            <Navbar.Brand href={"/"+process.env.PUBLIC_URL}>
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
              </Navbar.Brand>
             <Nav className="mr-auto">
