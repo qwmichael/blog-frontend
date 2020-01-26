@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "https://qwmichael.github.io/blog-frontend /static/css/main.d6a958cb.chunk.css",
-    "main.js": "https://qwmichael.github.io/blog-frontend /static/js/main.ebcbb3c0.chunk.js",
-    "main.js.map": "https://qwmichael.github.io/blog-frontend /static/js/main.ebcbb3c0.chunk.js.map",
-    "runtime-main.js": "https://qwmichael.github.io/blog-frontend /static/js/runtime-main.c11a9c0e.js",
-    "runtime-main.js.map": "https://qwmichael.github.io/blog-frontend /static/js/runtime-main.c11a9c0e.js.map",
-    "static/css/2.17e5ed98.chunk.css": "https://qwmichael.github.io/blog-frontend /static/css/2.17e5ed98.chunk.css",
-    "static/js/2.d0a69847.chunk.js": "https://qwmichael.github.io/blog-frontend /static/js/2.d0a69847.chunk.js",
-    "static/js/2.d0a69847.chunk.js.map": "https://qwmichael.github.io/blog-frontend /static/js/2.d0a69847.chunk.js.map",
-    "index.html": "https://qwmichael.github.io/blog-frontend /index.html",
-    "precache-manifest.aab6a97e93751d41854d91dc389a6d2f.js": "https://qwmichael.github.io/blog-frontend /precache-manifest.aab6a97e93751d41854d91dc389a6d2f.js",
-    "service-worker.js": "https://qwmichael.github.io/blog-frontend /service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "https://qwmichael.github.io/blog-frontend /static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.d6a958cb.chunk.css.map": "https://qwmichael.github.io/blog-frontend /static/css/main.d6a958cb.chunk.css.map",
-    "static/js/2.d0a69847.chunk.js.LICENSE": "https://qwmichael.github.io/blog-frontend /static/js/2.d0a69847.chunk.js.LICENSE"
+    "main.css": "https://qwmichael.github.io/blog-frontend/static/css/main.d6a958cb.chunk.css",
+    "main.js": "https://qwmichael.github.io/blog-frontend/static/js/main.57c1b357.chunk.js",
+    "main.js.map": "https://qwmichael.github.io/blog-frontend/static/js/main.57c1b357.chunk.js.map",
+    "runtime-main.js": "https://qwmichael.github.io/blog-frontend/static/js/runtime-main.75ee04f5.js",
+    "runtime-main.js.map": "https://qwmichael.github.io/blog-frontend/static/js/runtime-main.75ee04f5.js.map",
+    "static/css/2.17e5ed98.chunk.css": "https://qwmichael.github.io/blog-frontend/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.d0a69847.chunk.js": "https://qwmichael.github.io/blog-frontend/static/js/2.d0a69847.chunk.js",
+    "static/js/2.d0a69847.chunk.js.map": "https://qwmichael.github.io/blog-frontend/static/js/2.d0a69847.chunk.js.map",
+    "index.html": "https://qwmichael.github.io/blog-frontend/index.html",
+    "precache-manifest.9ae63d8593194f14f00e44550d851af8.js": "https://qwmichael.github.io/blog-frontend/precache-manifest.9ae63d8593194f14f00e44550d851af8.js",
+    "service-worker.js": "https://qwmichael.github.io/blog-frontend/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "https://qwmichael.github.io/blog-frontend/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d6a958cb.chunk.css.map": "https://qwmichael.github.io/blog-frontend/static/css/main.d6a958cb.chunk.css.map",
+    "static/js/2.d0a69847.chunk.js.LICENSE": "https://qwmichael.github.io/blog-frontend/static/js/2.d0a69847.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.c11a9c0e.js",
+    "static/js/runtime-main.75ee04f5.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.d0a69847.chunk.js",
     "static/css/main.d6a958cb.chunk.css",
-    "static/js/main.ebcbb3c0.chunk.js"
+    "static/js/main.57c1b357.chunk.js"
   ]
 }
