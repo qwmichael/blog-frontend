@@ -10,7 +10,7 @@ const ArticlesList = ({articles}) => (
         <Card className="Card">
             <Card.Body>
             <h6>{article.date}</h6>
-            <Link className="article-list-item" key={key} to={process.env.PUBLIC_URL + `/article/${article.name}`}>
+            <Link className="article-list-item" key={key} to={`article/${article.name}`}>
                 <h4>{article.title}</h4>
             </Link>
             </Card.Body>
