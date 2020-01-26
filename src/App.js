@@ -65,7 +65,7 @@ function App() {
       <div id='page-body'>   
         <div className="App">     
             <Switch>
-              <Route path={process.env.PUBLIC_URL + '/'} component={HomePage} exact/>
+              <Route path={'/'} component={HomePage} exact/>
               <Route path={process.env.PUBLIC_URL + "/about"} component={AboutPage} exact/>
               <Route path={process.env.PUBLIC_URL + "/articles-list"} component={ArticlesListPage} exact/>
               <Route path={process.env.PUBLIC_URL + "/article/:name"} component={ArticlePage} exact/>  
