@@ -47,7 +47,7 @@ function App() {
   console.log(process.env.PUBLIC_URL);
 
   return (
-    <BrowserRouter basename="/blog-frontend">   
+    <BrowserRouter >   
        <Navbar bg="dark" variant="dark">
             <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
