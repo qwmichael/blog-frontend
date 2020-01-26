@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "https://qwmichael.github.io/blog-frontend/static/css/main.d6a958cb.chunk.css",
-    "main.js": "https://qwmichael.github.io/blog-frontend/static/js/main.57c1b357.chunk.js",
-    "main.js.map": "https://qwmichael.github.io/blog-frontend/static/js/main.57c1b357.chunk.js.map",
-    "runtime-main.js": "https://qwmichael.github.io/blog-frontend/static/js/runtime-main.75ee04f5.js",
-    "runtime-main.js.map": "https://qwmichael.github.io/blog-frontend/static/js/runtime-main.75ee04f5.js.map",
-    "static/css/2.17e5ed98.chunk.css": "https://qwmichael.github.io/blog-frontend/static/css/2.17e5ed98.chunk.css",
-    "static/js/2.d0a69847.chunk.js": "https://qwmichael.github.io/blog-frontend/static/js/2.d0a69847.chunk.js",
-    "static/js/2.d0a69847.chunk.js.map": "https://qwmichael.github.io/blog-frontend/static/js/2.d0a69847.chunk.js.map",
-    "index.html": "https://qwmichael.github.io/blog-frontend/index.html",
-    "precache-manifest.9ae63d8593194f14f00e44550d851af8.js": "https://qwmichael.github.io/blog-frontend/precache-manifest.9ae63d8593194f14f00e44550d851af8.js",
-    "service-worker.js": "https://qwmichael.github.io/blog-frontend/service-worker.js",
-    "static/css/2.17e5ed98.chunk.css.map": "https://qwmichael.github.io/blog-frontend/static/css/2.17e5ed98.chunk.css.map",
-    "static/css/main.d6a958cb.chunk.css.map": "https://qwmichael.github.io/blog-frontend/static/css/main.d6a958cb.chunk.css.map",
-    "static/js/2.d0a69847.chunk.js.LICENSE": "https://qwmichael.github.io/blog-frontend/static/js/2.d0a69847.chunk.js.LICENSE"
+    "main.css": "/blog-frontend/static/css/main.d6a958cb.chunk.css",
+    "main.js": "/blog-frontend/static/js/main.f3b6446c.chunk.js",
+    "main.js.map": "/blog-frontend/static/js/main.f3b6446c.chunk.js.map",
+    "runtime-main.js": "/blog-frontend/static/js/runtime-main.6c9a5dde.js",
+    "runtime-main.js.map": "/blog-frontend/static/js/runtime-main.6c9a5dde.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/blog-frontend/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.d0a69847.chunk.js": "/blog-frontend/static/js/2.d0a69847.chunk.js",
+    "static/js/2.d0a69847.chunk.js.map": "/blog-frontend/static/js/2.d0a69847.chunk.js.map",
+    "index.html": "/blog-frontend/index.html",
+    "precache-manifest.9fd807ef7b805668d623c34293ec3fd1.js": "/blog-frontend/precache-manifest.9fd807ef7b805668d623c34293ec3fd1.js",
+    "service-worker.js": "/blog-frontend/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/blog-frontend/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.d6a958cb.chunk.css.map": "/blog-frontend/static/css/main.d6a958cb.chunk.css.map",
+    "static/js/2.d0a69847.chunk.js.LICENSE": "/blog-frontend/static/js/2.d0a69847.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.75ee04f5.js",
+    "static/js/runtime-main.6c9a5dde.js",
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.d0a69847.chunk.js",
     "static/css/main.d6a958cb.chunk.css",
-    "static/js/main.57c1b357.chunk.js"
+    "static/js/main.f3b6446c.chunk.js"
   ]
 }
