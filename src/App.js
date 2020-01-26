@@ -4,7 +4,7 @@ import ArticlePage from './pages/ArticlePage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import AboutPage from './pages/AboutPage';
 import NotFoundPage from './pages/NotFoundPage';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as BrowserRouter, Route, Switch } from 'react-router-dom';
 import {Navbar, Nav, Image, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -47,7 +47,7 @@ function App() {
   console.log(process.env.PUBLIC_URL);
 
   return (
-    <Router>     
+    <BrowserRouter basename={process.env.PUBLIC_URL}>   
        <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="/">
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
@@ -65,16 +65,16 @@ function App() {
       <div id='page-body'>   
         <div className="App">     
             <Switch>
-              <Route path={process.env.PUBLIC_URL + '/'} component={HomePage} exact/>
-              <Route path={process.env.PUBLIC_URL + "/about"} component={AboutPage} exact/>
-              <Route path={process.env.PUBLIC_URL + "/articles-list"} component={ArticlesListPage} exact/>
-              <Route path={process.env.PUBLIC_URL + "/article/:name"} component={ArticlePage} exact/>  
+              <Route path={'/'} component={HomePage} exact/>
+              <Route path={'/about'} component={AboutPage} exact/>
+              <Route path={'/articles-list'} component={ArticlesListPage} exact/>
+              <Route path={'/article/:name'} component={ArticlePage} exact/>  
               <Route component={NotFoundPage}></Route>
             </Switch> 
         </div>
       </div>
   
-    </Router>
+      </BrowserRouter>
     
   );
 }
