@@ -9,8 +9,6 @@ const ArticlesListPage = () => (
     </header>
     <br/>
     <ArticlesList articles={ArticleContet}/>
-
-
     </>
 );
 

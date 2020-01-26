@@ -14,7 +14,7 @@ const ArticlePage = ({match}) => {
         </header>
         <br/>
         {article.content.map((paragraph, key) => (         
-            <p key={key}>{ ReactHtmlParser (paragraph)}</p>
+            <p className="p" key={key}>{ ReactHtmlParser (paragraph)}</p>
         ))}
         <br/>
         <br/>
