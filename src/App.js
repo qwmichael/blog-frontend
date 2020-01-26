@@ -53,8 +53,8 @@ function App() {
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
              </Navbar.Brand>
             <Nav className="mr-auto">
-              <Nav.Link href={process.env.PUBLIC_URL + "/#/about"}>About</Nav.Link>
-              <Nav.Link href={process.env.PUBLIC_URL +"/#/articles-list"}>Articles</Nav.Link>
+              <Nav.Link href={"/#/about"}>About</Nav.Link>
+              <Nav.Link href={"/#/articles-list"}>Articles</Nav.Link>
             </Nav>
             <Button variant="light" className="right-buffer" onClick={backSong}>&lt;</Button>
             <Button variant="light" className="right-buffer" onClick={nextSong}>></Button>            
@@ -66,9 +66,9 @@ function App() {
         <div className="App">     
             <Switch>
               <Route path={'/'} component={HomePage} exact/>
-              <Route path={'/about'} component={AboutPage} exact />
-              <Route path={"/articles-list"} component={ArticlesListPage} exact />
-              <Route path={"/article/:name"} component={ArticlePage} exact/>  
+              <Route path={'/about'} component={AboutPage}/>
+              <Route path={"/articles-list"} component={ArticlesListPage}  />
+              <Route path={"/article/:name"} component={ArticlePage} t/>  
               <Route component={NotFoundPage}></Route>
             </Switch> 
         </div>
