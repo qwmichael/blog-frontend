@@ -4,7 +4,7 @@ import ArticlePage from './pages/ArticlePage';
 import ArticlesListPage from './pages/ArticlesListPage';
 import AboutPage from './pages/AboutPage';
 import NotFoundPage from './pages/NotFoundPage';
-import { BrowserRouter as BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import {Navbar, Nav, Image, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -47,7 +47,7 @@ function App() {
   console.log(process.env.PUBLIC_URL);
 
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>   
+    <BrowserRouter basename="/blog-frontend">   
        <Navbar bg="dark" variant="dark">
             <Navbar.Brand href={process.env.PUBLIC_URL + "/"}>
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
