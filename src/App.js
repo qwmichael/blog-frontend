@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import NotFoundPage from './pages/NotFoundPage';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import {Navbar, Nav, Image, Button} from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -53,8 +54,8 @@ function App() {
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
              </Navbar.Brand>
             <Nav className="mr-auto">
-              <Nav.Link href={"blog-frontend/#/about"}>About</Nav.Link>
-              <Nav.Link href={"blog-frontend/#/articles-list"}>Articles</Nav.Link>
+              <Nav.Link as={Link} to="/about" className="nav-link">About</Nav.Link>
+              <Nav.Link as={Link} to="/articles-list" className="nav-link">Articles</Nav.Link>
             </Nav>
             <Button variant="light" className="right-buffer" onClick={backSong}>&lt;</Button>
             <Button variant="light" className="right-buffer" onClick={nextSong}>></Button>            
