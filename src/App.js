@@ -53,8 +53,8 @@ function App() {
               <Image src="hibibg.png" roundedCircle width="50" height="50" />
              </Navbar.Brand>
             <Nav className="mr-auto">
-              <Nav.Link href={process.env.PUBLIC_URL + "/#/about"}>About</Nav.Link>
-              <Nav.Link href={process.env.PUBLIC_URL + "/#/articles-list"}>Articles</Nav.Link>
+              <Nav.Link href={"blog-frontend/#/about"}>About</Nav.Link>
+              <Nav.Link href={"blog-frontend/#/articles-list"}>Articles</Nav.Link>
             </Nav>
             <Button variant="light" className="right-buffer" onClick={backSong}>&lt;</Button>
             <Button variant="light" className="right-buffer" onClick={nextSong}>></Button>            
