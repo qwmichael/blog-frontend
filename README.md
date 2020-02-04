@@ -1,6 +1,6 @@
 # blog-frontend
 
-The frontend of a blog system using react
+The frontend of the blog in my github pages using javascript, react, react bootstrap and some customize CSS. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
